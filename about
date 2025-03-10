@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenLeaf Organics - About Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Falling Snowflakes will be added via JS -->
+  
+  <!-- Header -->
+  <header>
+    <div class="hero-text">
+      <h1>About Us</h1>
+      <p>Learn more about our mission and store details</p>
+    </div>
+  </header>
+  
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Main Content -->
+  <main>
+    <section class="container">
+      <h2>Our Story</h2>
+      <p>
+        GreenLeaf Organics was founded with the vision of promoting healthy living and sustainable practices in Hyderabad. We partner with local organic farms to deliver the freshest produce to our community.
+      </p>
+    </section>
+    
+    <!-- Store Information -->
+    <section id="store-info" class="container">
+      <h2>Store Information</h2>
+      <p><strong>Address:</strong> 123, ISB Road, GachiBowli, Hyderabad TG 500111</p>
+      <p><strong>Phone:</strong> 9412345678</p>
+      <p><strong>Email:</strong> <a href="mailto:greenleaf.organics@mlbm.com">greenleaf.organics@mlbm.com</a></p>
+      <p><strong>Hours:</strong> Mon-Sat: 9am - 8pm | Sun: 10am - 6pm</p>
+      <!-- Google Maps Embed -->
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.526058424122!2d78.33880187581157!3d17.434517901444405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb939dae6eb775%3A0x1f7a5db82bcfdfe1!2sIndian%20School%20of%20Business%2C%20ISB%20Rd%2C%20Gachibowli%2C%20Hyderabad%2C%20Telangana%20500111!5e0!3m2!1sen!2sin!4v1741251395601!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    
+    <!-- Sustainability -->
+    <section id="sustainability" class="container">
+      <h2>Sustainability</h2>
+      <p>
+        We are committed to eco-friendly practices—from sourcing to packaging, every step is designed to minimize our environmental impact and nurture our local community.
+      </p>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="container">
+    <p>&copy; 2025 GreenLeaf Organics. All Rights Reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+  </footer>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>

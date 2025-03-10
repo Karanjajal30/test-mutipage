@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenLeaf Organics - Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Falling Snowflakes will be added via JS -->
+  
+  <!-- Header -->
+  <header>
+    <div class="hero-text">
+      <h1>Our Products</h1>
+      <p>Fresh, organic, and locally sourced</p>
+    </div>
+  </header>
+  
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Main Content -->
+  <main>
+    <section class="container">
+      <h2>Fresh Organic Produce</h2>
+      <p>We offer a variety of fruits, vegetables, dairy, and artisanal goods. All our products are carefully selected to ensure quality and freshness.</p>
+    </section>
+    
+    <!-- Products Listing -->
+    <section id="product-list" class="container">
+      <div class="product-card">
+        <img src="https://th.bing.com/th/id/OIG4.nYdGv188TCQTNDhuiX5W?pid=ImgGn" alt="Organic Produce" />
+        <h3>Fresh Produce</h3>
+        <p>Seasonal fruits and vegetables sourced from local organic farms.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/500x300?text=Organic+Dairy" alt="Organic Dairy" />
+        <h3>Organic Dairy</h3>
+        <p>Milk, cheese, and other dairy products produced with organic practices.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/500x300?text=Artisanal+Goods" alt="Artisanal Goods" />
+        <h3>Artisanal Goods</h3>
+        <p>Handcrafted items and gourmet products that complement a healthy lifestyle.</p>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="container">
+    <p>&copy; 2025 GreenLeaf Organics. All Rights Reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+  </footer>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
